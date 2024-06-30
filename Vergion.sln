@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vergion.Api", "Vergion.Api\Vergion.Api.csproj", "{F98EA701-CDAE-4028-80D4-EEDF0AAEA68F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C680FC3C-0BCB-4711-82EC-657A2EBB8371}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vergion.Domain", "Vergion.Domain\Vergion.Domain.csproj", "{BD1A38D8-F0F1-4610-A8BC-CD2A74153D0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vergion.Application", "Vergion.Application\Vergion.Application.csproj", "{325A9BE7-02C3-4910-B9C5-89F74622C705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vergion.Infrastructure", "Vergion.Infrastructure\Vergion.Infrastructure.csproj", "{6431E886-2932-48AD-B2BF-633ACC09154B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks.csproj", "{166EA4BE-038F-431F-9F05-7189B4B3EDFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F98EA701-CDAE-4028-80D4-EEDF0AAEA68F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98EA701-CDAE-4028-80D4-EEDF0AAEA68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98EA701-CDAE-4028-80D4-EEDF0AAEA68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98EA701-CDAE-4028-80D4-EEDF0AAEA68F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD1A38D8-F0F1-4610-A8BC-CD2A74153D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1A38D8-F0F1-4610-A8BC-CD2A74153D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1A38D8-F0F1-4610-A8BC-CD2A74153D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1A38D8-F0F1-4610-A8BC-CD2A74153D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{325A9BE7-02C3-4910-B9C5-89F74622C705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325A9BE7-02C3-4910-B9C5-89F74622C705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325A9BE7-02C3-4910-B9C5-89F74622C705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325A9BE7-02C3-4910-B9C5-89F74622C705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6431E886-2932-48AD-B2BF-633ACC09154B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6431E886-2932-48AD-B2BF-633ACC09154B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6431E886-2932-48AD-B2BF-633ACC09154B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6431E886-2932-48AD-B2BF-633ACC09154B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166EA4BE-038F-431F-9F05-7189B4B3EDFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166EA4BE-038F-431F-9F05-7189B4B3EDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166EA4BE-038F-431F-9F05-7189B4B3EDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166EA4BE-038F-431F-9F05-7189B4B3EDFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
